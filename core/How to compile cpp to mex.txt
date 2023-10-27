@@ -1,0 +1,4 @@
+% In MATLAB inputting following command, then the mex file will be generated. Please replace the OPENCV directory to your own.
+% For details about how to compile, you may also check https://github.com/AlanLuSun/High-quality-ellipse-detection, where has detailed instrucitons.
+% Please cite our paper if you use the code.
+mex generateCircleCandidates.cpp -IF:\OpenCV\opencv2.4.9\build\include -IF:\OpenCV\opencv2.4.9\build\include\opencv -IF:\OpenCV\opencv2.4.9\build\include\opencv2 -LF:\OpenCV\opencv2.4.9\build\x64\vc11\lib -lopencv_core249 -lopencv_highgui249 -lopencv_imgproc249
